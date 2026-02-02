@@ -36,7 +36,7 @@ function Home() {
       tempConditions.push(where("type", "==", filters.type));
     }
 
-    //frequency condition
+    //frequency condition - time range
     if (filters.frequency !== "custom-range") {
 
       if (filters.frequency === "7") {
